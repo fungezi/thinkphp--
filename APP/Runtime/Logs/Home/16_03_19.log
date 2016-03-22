@@ -1,0 +1,19 @@
+[ 2016-03-19T20:44:24+08:00 ] ::1 /thinkphp2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.137225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.137587s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1032s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.525764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.526117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030747s ]
+

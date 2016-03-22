@@ -1,0 +1,1646 @@
+[ 2016-03-06T21:01:39+08:00 ] ::1 /thinkphp2/admin.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-06T21:02:17+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2016-03-06T21:02:21+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-06T21:03:13+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000498s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-06T21:03:14+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-06T21:03:15+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-06T21:03:44+08:00 ] ::1 /thinkphp2/admin.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-06T21:06:25+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.234490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.234790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2016-03-06T21:06:56+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\c1323a0502d4014d355e98cc16160fb163663966.file.index.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\c1323a0502d4014d355e98cc16160fb163663966.file.index.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2016-03-06T21:06:56+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2016-03-06T21:06:56+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2016-03-06T21:06:57+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002893s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\78b85ac5bd4b7dcf430dc6c14be2d5e1f3f387f9.file.right.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\78b85ac5bd4b7dcf430dc6c14be2d5e1f3f387f9.file.right.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\Admin\Runtime\Cache\78b85ac5bd4b7dcf430dc6c14be2d5e1f3f387f9.file.right.html.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\Admin\Runtime\Cache\78b85ac5bd4b7dcf430dc6c14be2d5e1f3f387f9.file.right.html.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2016-03-06T21:08:47+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2016-03-06T21:08:47+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2016-03-06T21:08:48+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.203707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2016-03-06T21:08:48+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002603s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2016-03-06T21:08:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-03-06T21:09:48+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-03-06T21:09:48+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2016-03-06T21:09:48+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004545s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004446s ]
+
+[ 2016-03-06T21:09:48+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002923s ]
+
+[ 2016-03-06T21:09:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\21a4b7ed48899c73bb0a5d34f8bb69ba48c1b8cd.file.add.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\21a4b7ed48899c73bb0a5d34f8bb69ba48c1b8cd.file.add.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002686s ]
+
+[ 2016-03-06T21:10:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2016-03-06T21:10:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2016-03-06T21:10:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2016-03-06T21:10:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003732s ]
+
+[ 2016-03-06T21:10:59+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2016-03-06T21:11:41+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004423s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2016-03-06T21:11:41+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-03-06T21:11:41+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2016-03-06T21:11:41+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008817s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2016-03-06T21:11:45+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2016-03-06T21:15:59+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001759s ]
+
+[ 2016-03-06T21:15:59+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2016-03-06T21:15:59+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010226s ]
+
+[ 2016-03-06T21:15:59+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003400s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004163s ]
+
+[ 2016-03-06T21:16:02+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-03-06T21:16:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/upd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\6da93315187efd80b128140954b2ccc1f862df13.file.upd.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\6da93315187efd80b128140954b2ccc1f862df13.file.upd.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2016-03-06T21:16:11+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2016-03-06T21:16:12+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2016-03-06T21:16:15+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/upd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2016-03-06T21:16:16+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2016-03-06T21:17:45+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2016-03-06T21:17:46+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028611s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2016-03-06T21:17:46+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-03-06T21:17:46+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016796s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002483s ]
+
+[ 2016-03-06T21:20:19+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2016-03-06T21:20:20+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004893s ]
+
+[ 2016-03-06T21:20:20+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023513s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2016-03-06T21:20:30+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001666s ]
+
+[ 2016-03-06T21:20:40+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-06T21:21:26+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2016-03-06T21:21:31+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2016-03-06T21:21:33+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003894s ]
+
+[ 2016-03-06T21:21:34+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/upd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002354s ]
+
+[ 2016-03-06T21:21:36+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2016-03-06T21:21:40+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2016-03-06T21:21:42+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2016-03-06T21:22:02+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003735s ]
+
+[ 2016-03-06T21:22:02+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2016-03-06T21:22:02+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2016-03-06T21:22:03+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004772s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2016-03-06T21:22:06+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-03-06T21:22:09+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003970s ]
+
+[ 2016-03-06T21:22:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/upd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000316s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2016-03-06T21:22:32+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0866s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2016-03-06T21:22:34+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2016-03-06T21:22:35+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003149s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2016-03-06T21:22:36+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0867s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001902s ]
+
+[ 2016-03-06T21:24:32+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007756s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-03-06T21:24:32+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2016-03-06T21:24:33+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2016-03-06T21:24:33+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2016-03-06T21:24:35+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 67 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 67 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.498613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.498946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002754s ]
+
+[ 2016-03-06T21:26:51+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005805s ]
+
+[ 2016-03-06T21:26:51+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2016-03-06T21:26:51+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005077s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2016-03-06T21:26:51+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004805s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003779s ]
+
+[ 2016-03-06T21:26:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 67 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 67 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.256951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.257483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2016-03-06T21:28:31+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000489s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2016-03-06T21:28:31+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-03-06T21:28:31+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-03-06T21:28:31+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004666s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2016-03-06T21:28:37+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 73 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 73 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.278176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.278997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2016-03-06T21:29:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2016-03-06T21:29:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003062s ]
+
+[ 2016-03-06T21:29:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2016-03-06T21:29:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-03-06T21:29:13+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 73 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 73 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002714s ]
+
+[ 2016-03-06T21:29:43+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/upd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2016-03-06T21:29:45+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 73 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 73 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2016-03-06T21:29:55+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003095s ]
+

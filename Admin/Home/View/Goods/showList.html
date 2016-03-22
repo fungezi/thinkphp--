@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>pull-商店</title>
+<style type="text/css">
+img{
+	width: 65px;
+	height: 50px;
+}
+</style>
+</head>
+<body >
+	<table>
+		<tr>
+			<td>序号</td>
+			<td>商品名称</td>
+			<td>库存</td>
+			<td>价格</td>
+			<td>图片</td>
+			<td>品牌</td>
+			<td>创建时间</td>
+			<td>操作</td>
+		</tr>
+		{foreach $info as $k=>$v}
+		<tr>
+			<td>{$v.num}</td>
+			<td>{$v.name}</td>
+			<td>{$v.count}</td>
+			<td>{$v.price}</td>
+			<td><img src="{$smarty.const.IMG_UPLOAD}{$v.pic}"></td>
+			<td>{$v.brand}</td>
+			<td>{$v.date}</td>
+			<td><a href="http://localhost/thinkphp2/admin.php?s=home/goods/upd&id={$v.num}">修改</a>/<a href="http://localhost/thinkphp2/admin.php?s=home/goods/delete&id={$v.num}">删除</a></td>
+		</tr>
+		{/foreach}
+	</table>
+	<a href="http://localhost/thinkphp2/admin.php?s=home/goods/add.html" target="right">添加商品</a>
+</body>
+</html>

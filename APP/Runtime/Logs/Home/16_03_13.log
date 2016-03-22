@@ -1,0 +1,38 @@
+[ 2016-03-13T20:04:47+08:00 ] ::1 /thinkphp2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.177552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019735s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0920s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.818919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.819309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017987s ]
+
+[ 2016-03-13T20:11:30+08:00 ] ::1 /thinkphp2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+

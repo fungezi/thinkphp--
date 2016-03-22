@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+.container{
+	width: 100%;
+}
+.heade{
+	color: white;
+	font-size: 22px;
+	width: 100%;
+	height: 100%;
+	background: #31B16C;
+	text-align: center;
+}
+.heade h3{
+	line-height: 50px;
+}
+.heade a{
+	font-size: 14px;
+	position: absolute;
+	top: 15px;
+	right: 100px;
+}
+.heade span{
+	position: absolute;
+	top: 15px;
+	right: 250px;
+	font-size: 14px;
+}
+.left{
+	text-align: center;
+	width: 150px;
+	float: left;
+}
+.left ul li:hover{
+	background-color: skyblue;
+}
+.right{
+	background-color: #DCDCDC;
+	overflow: hidden;
+	height: 500px;
+}
+
+.rec{
+	width: 0px;
+	height: 0px;
+	display: block;
+	border-width:8px 8px;
+	top: 12px;
+	left: 10px;
+	border-style: solid;
+	position: absolute;
+	border-color:#7FC269 #7FC269 #7FC269 green;
+}
+.recActive{
+	width: 0px;
+	height: 0px;
+	display: block;
+	border-width:8px 8px;
+	top: 12px;
+	left: 10px;
+	border-style: solid;
+	position: absolute;
+	border-color:green #7FC269 #7FC269 #7FC269;
+}
+.left ul{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.left ul li{
+	display: block;
+	width: 100%;
+	/*height: 40px;*/
+	line-height: 40px;
+	background-color: #7FC269;
+	font-size: 20px;
+	overflow: hidden;
+}
+.left ul li ul{
+	width: 70%;
+	float: right;
+	height: 0;
+}
+.left ul li ul li{
+	font-size: 16px;
+	background-color: green;
+}
+.left ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+	position: relative;
+}

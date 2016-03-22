@@ -1,0 +1,18 @@
+[ 2016-03-14T18:12:19+08:00 ] ::1 /thinkphp2/admin.php/thinkphp2/admin.php/s/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+ERR: 无法加载模块:Thinkphp2
+
+[ 2016-03-14T18:12:33+08:00 ] ::1 /thinkphp2/admin.php/thinkphp2/admin.php/s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002191s ]
+ERR: 无法加载模块:Thinkphp2
+
+[ 2016-03-14T18:12:53+08:00 ] ::1 /thinkphp2/admin.php/admin.php/s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+ERR: 无法加载模块:Admin.php
+

@@ -1,0 +1,1160 @@
+[ 2016-03-19T20:44:37+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005116s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003600s ]
+
+[ 2016-03-19T20:44:37+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2016-03-19T20:44:38+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009085s ]
+
+[ 2016-03-19T20:44:38+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002711s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002760s ]
+
+[ 2016-03-19T20:47:08+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2016-03-19T20:47:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004358s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 24 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 26 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 27 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 28 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 29 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0642s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.810696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.811053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2016-03-19T20:47:52+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-03-19T20:47:52+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003645s ]
+
+[ 2016-03-19T20:47:52+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002660s ]
+
+[ 2016-03-19T20:47:52+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2016-03-19T20:47:55+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1719s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2016-03-19T20:48:17+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015834s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 24 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 26 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 27 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 28 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 29 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0544s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008366s ]
+
+[ 2016-03-19T21:16:14+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2016-03-19T21:16:16+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 24 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 26 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 27 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 28 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 29 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0291s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002684s ]
+
+[ 2016-03-19T21:20:46+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0227s ]
+SQL: INSERT INTO `sw_goods` (`num`,`name`,`count`,`price`,`pic`,`brand`,`time`) VALUES ('12121','电饭锅','32','32','','放到','2013-1-1') [ RunTime:0.0138s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002398s ]
+
+[ 2016-03-19T21:23:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2016-03-19T21:23:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007725s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.055431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2016-03-19T21:23:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001654s ]
+
+[ 2016-03-19T21:23:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2016-03-19T21:23:08+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003073s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-03-19T21:41:44+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005295s ]
+
+[ 2016-03-19T21:43:49+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007196s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006434s ]
+
+[ 2016-03-19T21:43:49+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022159s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2016-03-19T21:43:49+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.076354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.076797s ]
+
+[ 2016-03-19T21:43:49+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005236s ]
+
+[ 2016-03-19T21:43:52+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005427s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1128s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002503s ]
+
+[ 2016-03-19T21:43:54+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004121s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 50 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 53 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 55 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0992s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2016-03-19T21:44:20+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0474s ]
+SQL: INSERT INTO `sw_goods` (`num`,`name`,`count`,`price`,`pic`,`brand`,`time`) VALUES ('32','额外','32','43','','4热发电','2013-1-1') [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2016-03-19T21:47:22+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002383s ]
+
+[ 2016-03-19T21:47:22+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006840s ]
+
+[ 2016-03-19T21:47:22+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2016-03-19T21:47:22+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.052348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002931s ]
+
+[ 2016-03-19T21:47:25+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1109s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002300s ]
+
+[ 2016-03-19T21:49:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 50 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 53 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 55 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0532s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2016-03-19T21:49:30+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009604s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0530s ]
+SQL: INSERT INTO `sw_goods` (`num`,`name`,`count`,`price`,`pic`,`brand`,`time`) VALUES ('54','蛋碎','43','42','','高浮雕','2013-1-1') [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003307s ]
+
+[ 2016-03-19T21:54:14+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2016-03-19T21:54:15+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002415s ]
+
+[ 2016-03-19T21:54:15+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004859s ]
+
+[ 2016-03-19T21:54:15+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005550s ]
+
+[ 2016-03-19T21:54:17+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007826s ]
+
+[ 2016-03-19T21:54:42+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005957s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2016-03-19T21:54:42+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2016-03-19T21:54:42+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013501s ]
+
+[ 2016-03-19T21:54:42+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034499s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2016-03-19T21:54:44+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1715s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2016-03-19T21:54:47+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006040s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 53 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 55 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 57 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 58 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2016-03-19T21:55:10+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1023s ]
+SQL: INSERT INTO `sw_goods` (`num`,`name`,`count`,`price`,`pic`,`brand`,`time`) VALUES ('65','鬼地方','534','545','upload/2016-03-19/56ed5a3e9dbbf.jpg','瑞文','2013-1-1') [ RunTime:0.0109s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004285s ]
+
+[ 2016-03-19T21:55:14+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003975s ]
+
+[ 2016-03-19T22:00:41+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 53 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 55 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 57 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 58 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2016-03-19T22:00:44+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.140115s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.140459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014201s ]
+
+[ 2016-03-19T22:00:52+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/delete&id=12121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0563s ]
+SQL: DELETE FROM `sw_goods` WHERE ( num=12121 ) [ RunTime:0.0197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2016-03-19T22:00:55+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0694s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.800971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.801361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2016-03-19T22:00:57+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/delete&id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0843s ]
+SQL: DELETE FROM `sw_goods` WHERE ( num=54 ) [ RunTime:0.0124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2016-03-19T22:00:58+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0751s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-03-19T22:00:59+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/delete&id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0525s ]
+SQL: DELETE FROM `sw_goods` WHERE ( num=32 ) [ RunTime:0.0199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004004s ]
+
+[ 2016-03-19T22:01:00+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0882s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2016-03-19T22:01:02+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/delete&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1185s ]
+SQL: DELETE FROM `sw_goods` WHERE ( num=1 ) [ RunTime:0.0129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2016-03-19T22:01:03+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1081s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\0c37000a8b67cadbe0bdf981ec744b77f55f4a1c.file.showList.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2016-03-19T22:01:05+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+NOTIC: [8] Undefined index: wareNum C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 53 行.
+NOTIC: [8] Undefined index: wareName C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 54 行.
+NOTIC: [8] Undefined index: wareCount C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 55 行.
+NOTIC: [8] Undefined index: warePrice C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Undefined index: warePic C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 57 行.
+NOTIC: [8] Undefined index: wareBrand C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 58 行.
+NOTIC: [8] Undefined index: wareTime C:\wamp\www\thinkphp2\Admin\Home\Controller\GoodsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0811s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2016-03-19T22:01:34+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0451s ]
+SQL: INSERT INTO `sw_goods` (`num`,`name`,`count`,`price`,`pic`,`brand`,`time`) VALUES ('1','热人','43','23','upload/2016-03-19/56ed5bbe6fd21.jpg','任务','2013-1-1') [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-03-19T22:01:36+08:00 ] ::1 /thinkphp2/admin.php?s=home/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003465s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0985s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+NOTIC: [8] Undefined index: date C:\wamp\www\thinkphp2\Admin\Runtime\Cache\146d3cf6ee870e4f2bc4a6219375be48c22b07ba.file.showlist.html.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+

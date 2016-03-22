@@ -1,0 +1,58 @@
+*{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+.bac{
+	width: 100%;
+}
+.loginBox{
+	width: 500px;
+	height: 300px;
+	background-color: #E5E9ED;
+	margin: 150px auto;
+	box-shadow: 0px 0px 2px gray;
+}
+.loginBox form{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.loginBox label{
+	width: 150px;
+	line-height: 30px;
+	/*color: white;*/
+}
+.loginBox input{
+	width: 250px;
+	height: 30px;
+	float: right;
+}
+.loginBox div{
+	width: 70%;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+.loginBox h3{
+	text-align: center;
+	line-height: 30px;
+	padding-top: 20px;
+}
+.login{
+	/*margin-top: 20px;*/
+	width: 100px !important;
+	display: block;
+	margin: 0px auto !important;
+	float: none !important;
+
+}
+.clear{
+	clear: both;
+}
+.username{
+	padding-top: 60px;
+}
+#verify{
+	width: 150px;
+}

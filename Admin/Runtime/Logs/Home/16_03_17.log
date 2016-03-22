@@ -1,0 +1,69 @@
+[ 2016-03-17T12:23:52+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026416s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017179s ]
+
+[ 2016-03-17T12:23:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003688s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username C:\wamp\www\thinkphp2\Admin\Runtime\Cache\135920eb24d3d8e3fe38943d3bea7f86e9bfdb79.file.heade.html.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004372s ]
+
+[ 2016-03-17T12:23:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003630s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003504s ]
+
+[ 2016-03-17T12:23:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+

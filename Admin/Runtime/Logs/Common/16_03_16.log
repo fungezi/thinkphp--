@@ -1,0 +1,30 @@
+[ 2016-03-16T17:57:39+08:00 ] ::1 /thinkphp2/admin.php/public/admin/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-16T17:57:53+08:00 ] ::1 /thinkphp2/admin.php/public/admin/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-16T18:01:09+08:00 ] ::1 /thinkphp2/admin.php/thinkphp2/admin.php.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+ERR: 无法加载模块:Thinkphp2
+
+[ 2016-03-16T18:01:32+08:00 ] ::1 /thinkphp2/admin.php/thinkphp2/admin.php.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+ERR: 无法加载模块:Thinkphp2
+
+[ 2016-03-16T19:11:11+08:00 ] ::1 /thinkphp2/admin.php/public/admin/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Public
+

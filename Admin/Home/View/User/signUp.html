@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>乐购商店后台</title>
+<link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_PATH}/login.css">
+</head>
+<body >
+<div class="bac">
+	<div class="loginBox">
+		<h3>乐购管理后台注册</h3>
+		<form action="http://localhost/thinkphp2/admin.php?s=home/user/signup" method="POST">
+			<div class="username">
+				<label for="username">用户名</label>
+				<input id="username" name="username" type="text" value="">
+				<span class="clear"></span>
+			</div>
+			<div class="pwd">
+				<label for="pwd">密码</label>
+				<input id="pwd" type="password" name="pwd1" value="">
+				<label id="pwd1" for="pwd1">再输一次密码</label>
+				<input type="password" name="pwd1" value="">
+				<span class="clear"></span>
+			</div>
+			<div class="login">
+				<input class="login" type="submit" value="登陆">
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

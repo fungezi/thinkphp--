@@ -1,0 +1,776 @@
+[ 2016-03-06T16:11:21+08:00 ] ::1 /thinkphp2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017065s ]
+
+[ 2016-03-06T16:13:03+08:00 ] ::1 /thinkphp2/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-03-06T16:13:30+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+
+[ 2016-03-06T16:18:28+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+
+[ 2016-03-06T16:23:48+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+
+[ 2016-03-06T16:24:08+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+
+[ 2016-03-06T16:36:44+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003925s ]
+ERR: 1146:Table 'shop.sw_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_goods`
+ERR: 1146:Table 'shop.sw_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_goods`
+
+[ 2016-03-06T16:42:34+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001829s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\thinkphp2\APP\Home\Controller\GoodsController.class.php:9) C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\thinkphp2\APP\Home\Controller\GoodsController.class.php:9) C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\thinkphp2\APP\Home\Controller\GoodsController.class.php:9) C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004154s ]
+
+[ 2016-03-06T16:43:49+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000576s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+
+[ 2016-03-06T16:45:09+08:00 ] ::1 /thinkphp2/index.php?s=/home/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\thinkphp2\APP\Home\Controller\GoodsController.class.php:10) C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\thinkphp2\APP\Home\Controller\GoodsController.class.php:10) C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\thinkphp2\APP\Home\Controller\GoodsController.class.php:10) C:\wamp\www\thinkphp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004690s ]
+
+[ 2016-03-06T18:57:48+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006094s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./APP/Runtime/Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./APP/Runtime/Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 31 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 53 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 63 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 73 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 78 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 78 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 83 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 83 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 88 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 93 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 98 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 98 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 103 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 103 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 108 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 108 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 113 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.041635s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.041926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2016-03-06T18:58:54+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007679s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Smarty C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 32 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 54 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 59 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 64 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 69 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 74 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 74 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 79 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 89 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 89 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 94 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 94 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 99 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 99 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 104 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 104 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 109 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 114 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.364476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.364813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2016-03-06T18:59:24+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Smarty C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 32 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 54 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 59 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 64 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 69 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 74 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 74 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 79 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 89 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 89 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 94 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 94 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 99 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 99 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 104 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 104 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 109 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 114 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2016-03-06T19:00:17+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Undefined variable: Smarty C:\wamp\www\thinkphp2\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-03-06T19:00:43+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2016-03-06T19:01:38+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2016-03-06T19:02:20+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Smarty C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 32 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 54 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 59 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 64 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 69 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 74 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 74 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 79 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 84 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 89 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 89 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 94 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 94 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 99 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 99 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 104 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 104 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 109 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 114 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.345728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.346068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-03-06T19:02:42+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 31 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 53 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 63 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 73 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 78 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 78 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 83 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 83 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 88 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 93 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 98 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 98 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 103 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 103 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 108 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 108 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 113 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.370844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.371192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2016-03-06T19:03:02+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 53 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 63 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 73 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 78 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 78 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 83 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 83 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 88 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 93 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 98 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 98 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 103 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 103 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 108 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 108 行.
+NOTIC: [8] Undefined index: Think C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 113 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.393004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.393303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2016-03-06T19:04:08+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.304045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.304410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2016-03-06T19:11:25+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012661s ]
+
+[ 2016-03-06T19:11:38+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017155s ]
+ERR: 1146:Table 'shop.sw_goods_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_goods_model`
+ERR: 1146:Table 'shop.sw_goods_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_goods_model`
+
+[ 2016-03-06T19:12:55+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000569s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016021s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\thinkphp2\APP\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002080s ]
+
+[ 2016-03-06T19:13:22+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2016-03-06T19:15:52+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-03-06T19:18:20+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003948s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2016-03-06T19:25:04+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./APP/Home/View\Index\index.html"  on line 31 "{foreach $info as $k-&gt;$v}"  - Unexpected "->", expected one of: "}" , " "
+
+[ 2016-03-06T19:25:48+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0999s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 61 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.462846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.463164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2016-03-06T19:26:45+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029800s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2016-03-06T19:27:25+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.027759s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003493s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2016-03-06T19:29:18+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003344s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+NOTIC: [8] Undefined index: info C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.306108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.306415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2016-03-06T19:31:16+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./APP/Home/View\Index\index.html"  on line 30 "{info}" unknown tag "info"
+
+[ 2016-03-06T19:32:17+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Array to string conversion C:\wamp\www\thinkphp2\APP\Runtime\Cache\1ea5bbfc063b222638d4e52e0c16454fd65a7ad1.file.index.html.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.251328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001939s ]
+
+[ 2016-03-06T19:32:50+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007881s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003213s ]
+
+[ 2016-03-06T21:03:47+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2016-03-06T21:17:31+08:00 ] ::1 /thinkphp2/index.php?s=/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+

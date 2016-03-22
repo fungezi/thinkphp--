@@ -1,0 +1,12 @@
+[ 2016-03-06T16:12:12+08:00 ] ::1 /thinkphp2/index.php/s=goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000753s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002036s ]
+ERR: 无法加载模块:S=goods
+
+[ 2016-03-06T16:12:31+08:00 ] ::1 /thinkphp2/index.php/s=Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+ERR: 无法加载模块:S=Goods
+
