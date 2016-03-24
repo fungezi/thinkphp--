@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-03-19 22:00:54
+<?php /* Smarty version Smarty-3.1.6, created on 2016-03-22 18:41:24
          compiled from "./Admin/Home/View\Goods\showList.html" */ ?>
 <?php /*%%SmartyHeaderCode:2535156dc2be5540cc9-09985388%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0c37000a8b67cadbe0bdf981ec744b77f55f4a1c' => 
     array (
       0 => './Admin/Home/View\\Goods\\showList.html',
-      1 => 1458396032,
+      1 => 1458449104,
       2 => 'file',
     ),
   ),
@@ -30,10 +30,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <meta charset="utf-8">
 <title>pull-商店</title>
 <style type="text/css">
-	img{
-		width: 65px;
-		height: 50px;
-	}
+img{
+	width: 65px;
+	height: 50px;
+}
 </style>
 </head>
 <body >

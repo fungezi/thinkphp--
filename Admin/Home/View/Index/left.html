@@ -10,36 +10,27 @@
 <body>
 	<div class="left">
 		<ul class="navBarList" id = "navBarList">
-			<li><a href="#">关于我们</a></li>
-			<li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/upd.html" target="right">新闻中心</a></li>
-			<li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/add.html" target="right">客服中心</a></li>
+			{foreach $trinfo as $k=>$v}
 			<li>
-				<a href="javascript:;"><span class="rec" id="rec"></span>产品服务</a>
+				<a href="javascript:;"><span class="rec" id="rec"></span>{$v['auth_name']}</a>
 				<ul>
-					<li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/showList.html" target="right">产品列表</a></li>
+					<!-- <li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/showList.html" target="right">产品列表</a></li>
 					<li><a href="#">产品介绍</a></li>
 					<li><a href="#">产品销售</a></li>
-					<li><a href="#">产品价格</a></li>
+					<li><a href="#">产品价格</a></li> -->
+					{foreach $ttrinfo as $kk=>$vv}
+						{if $v['auth_id'] == $vv['auth_pid']}
+							<li><a href="{$vv['auht_c']}"."{$vv['auht_a']}">{$vv['auth_name']}</a></li>
+						{/if}
+					{/foreach}
 				</ul>
 			</li>
-			<li>
-				<a href="javascript:;"><span class="rec" id="rec"></span>经典案例</a>
-				<ul>
-					<li><a href="#" target="right">产品列表</a></li>
-					<li><a href="#">产品介绍</a></li>
-					<li><a href="#">产品销售</a></li>
-					<li><a href="#">产品价格</a></li>
-				</ul>
-			</li>
-			<li><a href="#">高级管理</a></li>
-			<li><a href="#">系统管理</a></li>
-			<li><a href="#">个人管理</a></li>
+			{/foreach}
 		</ul>
 	</div>
 	<script type="text/javascript">
     var navBar = document.getElementById('navBarList');
     var navBarList = navBar.getElementsByTagName('li');
-    
     var navUl = [];
     for(var i=0;i<navBarList.length;i++){
 	    navUl[i] = navBarList[i].getElementsByTagName('ul');

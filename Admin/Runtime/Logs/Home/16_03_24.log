@@ -1,0 +1,333 @@
+[ 2016-03-24T13:36:48+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023970s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphp2\Admin\Component\AdminController.class.php 第 12 行.
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-03-24T13:36:58+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006314s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphp2\Admin\Component\AdminController.class.php 第 12 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=
+
+[ 2016-03-24T13:37:23+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004461s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphp2\Admin\Component\AdminController.class.php 第 12 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=
+
+[ 2016-03-24T13:37:26+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphp2\Admin\Component\AdminController.class.php 第 12 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=
+
+[ 2016-03-24T13:38:03+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.533351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.533698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026717s ]
+
+[ 2016-03-24T13:38:04+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/User/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014128s ]
+
+[ 2016-03-24T13:38:17+08:00 ] ::1 /thinkphp2/admin.php?s=home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `sw_user` WHERE `username` = '喻希里' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-03-24T13:38:18+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003274s ]
+
+[ 2016-03-24T13:38:18+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006406s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2016-03-24T13:38:18+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003508s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0015s ]
+SQL: select * from sw_role where id=1 [ RunTime:0.0010s ]
+SQL: select * from sw_auth where auth_level=0 and auth_id in(1,4,2,5,6,8,9,10) [ RunTime:0.0067s ]
+SQL: select * from sw_auth where auth_level=1 and auth_id in(1,4,2,5,6,8,9,10) [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004076s ]
+
+[ 2016-03-24T13:38:18+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005717s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004811s ]
+
+[ 2016-03-24T13:46:48+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0009s ]
+
+[ 2016-03-24T13:50:22+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003015s ]
+
+[ 2016-03-24T13:50:46+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2016-03-24T13:53:30+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Admin/Runtime/Cache\eb7752c1ae410ca816f1d6869571282e5a04a338.file.showlist.html.php C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Admin/Runtime/Cache\eb7752c1ae410ca816f1d6869571282e5a04a338.file.showlist.html.php): No such file or directory C:\wamp\www\thinkphp2\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.629923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.630290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2016-03-24T14:21:05+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005448s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2016-03-24T16:48:53+08:00 ] ::1 /thinkphp2/admin.php?s=/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022947s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.418895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.419198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017275s ]
+
+[ 2016-03-24T16:48:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/heade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2016-03-24T16:48:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011289s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0019s ]
+SQL: select * from sw_role where id=1 [ RunTime:0.0009s ]
+SQL: select * from sw_auth where auth_level=0 and auth_id in(1,4,2,5,6,8,9,10) [ RunTime:0.0015s ]
+SQL: select * from sw_auth where auth_level=1 and auth_id in(1,4,2,5,6,8,9,10) [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+NOTIC: [8] Undefined index: auht_c C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 65 行.
+NOTIC: [8] Undefined index: auht_a C:\wamp\www\thinkphp2\Admin\Runtime\Cache\48c142ea40c6ed7abfdae4e8596b827c26b8d3dd.file.left.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004657s ]
+
+[ 2016-03-24T16:48:53+08:00 ] ::1 /thinkphp2/admin.php?s=home/index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: select role_ac from sw_user a join sw_role b on a.userId=b.id where a.userId=1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+

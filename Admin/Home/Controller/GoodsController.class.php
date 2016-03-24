@@ -1,8 +1,8 @@
 <?php
 namespace Home\Controller;
-use Think\Controller;
+use Component\AdminController;
 header("Content-type:text/html;charset=utf-8");
-class GoodsController extends Controller {
+class GoodsController extends adminController {
     public function showList(){
     	$goods = D("Goods");//这里的名字直接关系到数据库里的名字
     	$info = $goods->select();

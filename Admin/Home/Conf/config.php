@@ -1,7 +1,6 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
-	'name'=>"pull",
 	'URL_MODEL'=>'1',
 	'DB_TYPE'               =>  'mysql',     // 数据库类型
     'DB_HOST'               =>  'localhost', // 服务器地址

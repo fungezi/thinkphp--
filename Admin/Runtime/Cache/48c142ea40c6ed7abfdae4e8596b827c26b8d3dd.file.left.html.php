@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-03-12 16:10:37
+<?php /* Smarty version Smarty-3.1.6, created on 2016-03-23 18:45:16
          compiled from "./Admin/Home/View\Index\left.html" */ ?>
 <?php /*%%SmartyHeaderCode:1881756dc2b70a8a954-18205292%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '48c142ea40c6ed7abfdae4e8596b827c26b8d3dd' => 
     array (
       0 => './Admin/Home/View\\Index\\left.html',
-      1 => 1457770230,
+      1 => 1458724579,
       2 => 'file',
     ),
   ),
@@ -17,6 +17,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_56dc2b70be97b',
+  'variables' => 
+  array (
+    'trinfo' => 0,
+    'v' => 0,
+    'ttrinfo' => 0,
+    'vv' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_56dc2b70be97b')) {function content_56dc2b70be97b($_smarty_tpl) {?>
@@ -32,36 +39,43 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <body>
 	<div class="left">
 		<ul class="navBarList" id = "navBarList">
-			<li><a href="#">关于我们</a></li>
-			<li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/upd.html" target="right">新闻中心</a></li>
-			<li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/add.html" target="right">客服中心</a></li>
+			<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['trinfo']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value){
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+ $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
+?>
 			<li>
-				<a href="javascript:;"><span class="rec" id="rec"></span>产品服务</a>
+				<a href="javascript:;"><span class="rec" id="rec"></span><?php echo $_smarty_tpl->tpl_vars['v']->value['auth_name'];?>
+</a>
 				<ul>
-					<li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/showList.html" target="right">产品列表</a></li>
+					<!-- <li><a href="http://localhost/thinkphp2/admin.php?s=home/goods/showList.html" target="right">产品列表</a></li>
 					<li><a href="#">产品介绍</a></li>
 					<li><a href="#">产品销售</a></li>
-					<li><a href="#">产品价格</a></li>
+					<li><a href="#">产品价格</a></li> -->
+					<?php  $_smarty_tpl->tpl_vars['vv'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['vv']->_loop = false;
+ $_smarty_tpl->tpl_vars['kk'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['ttrinfo']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['vv']->key => $_smarty_tpl->tpl_vars['vv']->value){
+$_smarty_tpl->tpl_vars['vv']->_loop = true;
+ $_smarty_tpl->tpl_vars['kk']->value = $_smarty_tpl->tpl_vars['vv']->key;
+?>
+						<?php if ($_smarty_tpl->tpl_vars['v']->value['auth_id']==$_smarty_tpl->tpl_vars['vv']->value['auth_pid']){?>
+							<li><a href="<?php echo $_smarty_tpl->tpl_vars['vv']->value['auht_c'];?>
+"."<?php echo $_smarty_tpl->tpl_vars['vv']->value['auht_a'];?>
+"><?php echo $_smarty_tpl->tpl_vars['vv']->value['auth_name'];?>
+</a></li>
+						<?php }?>
+					<?php } ?>
 				</ul>
 			</li>
-			<li>
-				<a href="javascript:;"><span class="rec" id="rec"></span>经典案例</a>
-				<ul>
-					<li><a href="#" target="right">产品列表</a></li>
-					<li><a href="#">产品介绍</a></li>
-					<li><a href="#">产品销售</a></li>
-					<li><a href="#">产品价格</a></li>
-				</ul>
-			</li>
-			<li><a href="#">高级管理</a></li>
-			<li><a href="#">系统管理</a></li>
-			<li><a href="#">个人管理</a></li>
+			<?php } ?>
 		</ul>
 	</div>
 	<script type="text/javascript">
     var navBar = document.getElementById('navBarList');
     var navBarList = navBar.getElementsByTagName('li');
-    
     var navUl = [];
     for(var i=0;i<navBarList.length;i++){
 	    navUl[i] = navBarList[i].getElementsByTagName('ul');

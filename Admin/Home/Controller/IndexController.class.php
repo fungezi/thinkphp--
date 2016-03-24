@@ -1,8 +1,9 @@
 <?php
 namespace Home\Controller;
-use Think\Controller;
+// use Think\Controller;
+use Component\AdminController;
 header("Content-type:text/html;charset=utf-8");
-class IndexController extends Controller {
+class IndexController extends adminController {
     public function index(){
     	/*
 			URL_MODEL:
@@ -22,10 +23,17 @@ class IndexController extends Controller {
     public function heade(){
     	echo $this->display();
     }
-    public function left(){
-        $sql = "select * from role where id=".$_SESSION["id"];
-        // $minfo = D()->query($sql);
-        // var_dump($minfo);
+    public function left(){        
+        $usql = "select * from sw_role where id=".$_SESSION["id"];
+        $uinfo = D()->query($usql);
+        $role_ids = $uinfo[0]["role_ids"];
+        $trsql = "select * from sw_auth where auth_level=0 and auth_id in($role_ids)";
+        $ttrsql = "select * from sw_auth where auth_level=1 and auth_id in($role_ids)";
+        $trinfo = D()->query($trsql);
+        $ttrinfo = D()->query($ttrsql);
+        // var_dump($rinfo);
+        $this->assign("trinfo",$trinfo);
+        $this->assign("ttrinfo",$ttrinfo);
     	echo $this->display();
     }
     public function right(){

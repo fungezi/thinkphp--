@@ -17,6 +17,7 @@ class UserController extends Controller {
                 //进行用户名以及密码的验证
                 $userModel = new t\UserModel();
                 $info = $userModel->checkUser($_POST['username'],$_POST['pwd']);
+                var_dump($info);
                 if($info){
                     // var_dump($info);
                     //session(key,value,expire);设置key以及过期时间
@@ -24,9 +25,10 @@ class UserController extends Controller {
                     //session(null);清空所有的session
                     session("username",$info['username']);
                     session("password",$info['password']);
-                    session("id",$info['id']);
+                    session("id",$info['userid']);
                     $this->redirect("index/index");
                     //在这里传递的参数会出现在url里；
+
                 }else{
                     echo "用户名或者密码错误";
                     echo $this->display();
